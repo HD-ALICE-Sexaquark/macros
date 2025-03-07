@@ -1,0 +1,7 @@
+.env
+.clangd
+**/.vscode
+**/output
+**/gfx
+**/scripts
+**.root
