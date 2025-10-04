@@ -1,7 +1,7 @@
 .env
 .clangd
-**/.vscode
-**/output
-**/gfx
-**/scripts
+.vscode/
+output/
+gfx/
 **.root
+deprecated/

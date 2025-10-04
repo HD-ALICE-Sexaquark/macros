@@ -6,23 +6,21 @@ Checks: "*,
   -fuchsia-*,
   -google-*,
   -llvm*,
-  -modernize-use-trailing-return-type,
   -zircon-*,
+  -modernize-use-trailing-return-type,
   -readability-else-after-return,
   -readability-static-accessed-through-instance,
   -readability-avoid-const-params-in-decls,
-  -cppcoreguidelines-non-private-member-variables-in-classes,
-  -misc-non-private-member-variables-in-classes,
   -readability-identifier-length,
   -readability-braces-around-statements,
   -readability-isolate-declaration,
   -readability-math-missing-parentheses,
-  -readability-implicit-bool-conversion,
-  -bugprone-easily-swappable-parameters,
+  -*-magic-numbers,
   -hicpp-braces-around-statements,
   -hicpp-special-member-functions,
+  -cppcoreguidelines-non-private-member-variables-in-classes,
   -cppcoreguidelines-special-member-functions,
-  -cppcoreguidelines-init-variables,"
+  -misc-non-private-member-variables-in-classes"
 WarningsAsErrors: ""
 HeaderFilterRegex: ""
 FormatStyle: none
